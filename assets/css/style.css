@@ -4,9 +4,17 @@
     background-color: #e0e2e4;
 }
 
-.title {
+header {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
     color: #625750;
+    font-style: normal;
 }
 
+header nav {
+    display: inline;
+}
+
+header nav ul{
+    list-style: none;
+}
