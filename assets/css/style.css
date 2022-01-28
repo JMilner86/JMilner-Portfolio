@@ -12,7 +12,7 @@ header {
     text-align: left;
     padding-left: 20px;
     color: #625750;
-    font-style: normal;
+    font-style: bold;
 }
 
 header h1 a{
@@ -20,8 +20,14 @@ header h1 a{
     color: #625750;
 }
 
-header nav {
+header nav ul li {
+    display: flex;
     display: inline-flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #625750;
 }
 
 header nav ul{
