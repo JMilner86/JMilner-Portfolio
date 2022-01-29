@@ -8,6 +8,7 @@
     --main-text-color: #19115C;
     --background-reference: #7092be;
     --reference-border: solid black 3px;
+    --underline: var(--main-text-color) solid 3px;
 }
 
 body{
@@ -125,10 +126,10 @@ header nav ul li a{
     margin: 100px;
 }
 
-.work-images a {
+.work-images a, h3 {
     text-decoration: none;
-    border: var(--reference-border);
     color: var(--main-text-color);
+    text-align: center;
 }
 
 .work-images img {
@@ -138,7 +139,6 @@ header nav ul li a{
     height: 400px;
     border-radius: 30px;
     justify-content: center;
-    border: var(--reference-border);
 }
 
 .biggest-image img {
@@ -146,8 +146,12 @@ header nav ul li a{
     flex-wrap: wrap;
     width: 60%;
     height: 500px;
-    border: var(--reference-border);
     align-items: center;
+}
+
+.smaller-images {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-info {
