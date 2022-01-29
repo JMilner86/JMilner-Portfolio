@@ -11,6 +11,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--main-text-color);
 }
 
 header {
@@ -19,8 +20,9 @@ header {
     justify-content: space-between;
     text-align: left;
     padding-left: 20px;
+    padding-top: 30px;
     color: var(--main-text-color);
-    font-style: bold;
+    font-style: bolder;
     background-image: url(../images/abstract.png);
     height: 200px;
     width: 100%;
@@ -29,12 +31,20 @@ header {
 header h1 a{
     text-decoration: none;
     color: var(--main-text-color);
+    border-bottom: 3px solid var(--main-text-color);
+}
+
+header h1 {
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 header nav ul li {
-    display: flex;
-    display: inline-flex;
-    text-align: right;
+    list-style: none;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-style: bold;
+    font-weight: bolder;
 }
 
 header nav ul li a{
@@ -42,15 +52,22 @@ header nav ul li a{
     text-decoration: none;
     color: var(--main-text-color);
     text-align: right;
-}
-
-header nav ul{
+    flex-wrap: flex;
+    padding-right: 30px;
     list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: solid 3px var(--main-text-color);
 }
 
 .about-image img{
     display: flex;
     flex-wrap: wrap;
     max-width: 250px;
+    height: auto;
+}
+
+img {
+    width: 50%;
     height: auto;
 }
