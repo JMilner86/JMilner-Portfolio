@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #e0e2e4;
 }
 
 :root{
     --main-text-color: #625750;
+    --some-color: #7092be;
 }
 
 body{
@@ -13,10 +13,16 @@ body{
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: left;
     padding-left: 20px;
     color: var(--main-text-color);
     font-style: bold;
+    background-image: url(../images/abstract.png);
+    height: 200px;
+    width: 100%;
 }
 
 header h1 a{
