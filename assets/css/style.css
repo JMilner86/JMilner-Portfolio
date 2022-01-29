@@ -72,6 +72,8 @@ header nav ul li a{
 }
 
 .about-section p {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: bold;
     position: absolute;
     top: 100px;
@@ -96,6 +98,19 @@ header nav ul li a{
     padding-left: 100px;
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.work-text h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    text-align: center;
+}
+
 .work-images img {
     display: flex;
     flex-wrap: wrap;
@@ -110,4 +125,5 @@ header nav ul li a{
     flex-wrap: wrap;
     width: 60%;
     height: 500px;
+    padding-left: 300px;
 }
