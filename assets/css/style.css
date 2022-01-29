@@ -1,9 +1,10 @@
+/* No margin or padding on edges, allows smooth scrolling when nav elements selected */
 * {
     margin: 0;
     padding: 0px;
     scroll-behavior: smooth;
 }
-
+/* main colors used, and reference colors */
 :root{
     --main-text-color: #19115C;
     --background-reference: #7092be;
@@ -13,10 +14,9 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--main-text-color);
     background-color: #C2A672;
 }
-
+/* displays the header image and text at the top of the page */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -30,26 +30,26 @@ header {
     height: 200px;
     background-position: left;
 }
-
+/* displays the header text  */
 header h1 a{
     text-decoration: none;
     color: var(--main-text-color);
     border-bottom: 3px solid var(--main-text-color);
     font-weight: bolder;
 }
-
+/* adjusts where header rests on the page */
 header h1 {
     padding-left: 40px;
     padding-top: 30px;
 }
-
+/* displays the list elements for the various sections of the page */
 header nav ul li {
     list-style: none;
     padding-right: 100px;
     padding-top: 20px;
     font-weight: bolder;
 }
-
+/* adjusts the list elements */
 header nav ul li a{
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@ header nav ul li a{
     font-weight: bolder;
     border-bottom: solid 3px var(--main-text-color);
 }
-
+/* creates the about me section */
 .about-section {
     display: flex;
     flex-wrap: wrap;
@@ -71,32 +71,35 @@ header nav ul li a{
     justify-content: flex-start;
     padding: 60px 20px;
 }
-
+/* title of the about me section */
 .about-section h2 {
     font-weight: bolder;
     text-align: center;
     width: 100%;
     padding: 20px;
     font-size: 40px;
+    color: #385273;
 }
-
+/* adjusts the written paragraph of the about me section */
 .about-section p {
     font-weight: bold;
     top: 100px;
     max-width: 50%;
     font-size: 20px;
+    color: #393C40;
 }
-
+/* adjusts positioning of the text */
 .about-text {
     display: flex;
     flex-wrap: wrap;   
    
 }
-
+/* adjusts the header of the about me section */
 .about-text h2{
     font-weight: bolder;
+    color: #385273;
 }
-
+/* displays the picture of me and my wife */
 .about-image img{
     display: flex;
     flex-wrap: wrap;
@@ -107,40 +110,40 @@ header nav ul li a{
     left: 100px;
     border-radius: 30px;
 }
-
+/* creates the projects/work section */
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* adjusts the size of the section text div */
 .work-text {
     width: 100%;
 }
-
+/* displays the title of the section */
 .work-text h2 {
     font-size: 40px;
     margin: 20px;
     text-align: center;
+    color: #385273;
 }
-
-
+/* adjusts the images in the work section */
 .work-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 100px;
 }
-
+/* adjusts the titles of the images */
 .work-images a, h3 {
     text-decoration: none;
-    color: var(--main-text-color);
+    color: #263140;
     text-align: center;
 }
-
+/* adjusts specifically the title of the largest image */
 .biggest-image a, h3 {
     text-align: left;
 }
-
+/* displays the images in the work section */
 .work-images img {
     display: flex;
     width: 400px;
@@ -148,7 +151,7 @@ header nav ul li a{
     border-radius: 30px;
     justify-content: center;
 }
-
+/* adjusts the largest image */
 .biggest-image img {
     display: flex;
     flex-wrap: wrap;
@@ -156,35 +159,36 @@ header nav ul li a{
     height: 500px;
     align-items: center;
 }
-
+/* adjustments to the smaller images */
 .smaller-images img {
     display: flex;
     padding: 10px;
     margin: 10px;
 }
-
+/* creates the contact info section */
 .contact-info {
     width: 100%;
 }
-
+/* adjusts the title of the contact info section */
 .contact-info h2{
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
     padding: 10px;
+    color: #385273;
 }
-
+/* declares the list of the contact info section */
 .contact-info ul {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
     padding: 10px;
 }
-
+/* adjusts the list of the contact info section */
 .contact-info ul li {
     padding: 10px;
 }
-
+/* specific adjustments to the text of the list  */
 .contact-info ul li a{
     text-decoration: none;
     color: var(--main-text-color);
