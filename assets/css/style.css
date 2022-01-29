@@ -37,3 +37,8 @@ header nav ul li a{
 header nav ul{
     list-style: none;
 }
+
+.about-image img{
+    max-width: 250px;
+    height: auto;
+}
