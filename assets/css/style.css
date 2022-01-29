@@ -99,13 +99,15 @@ header nav ul li a{
 .work-images img {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    height: auto;
+    width: 400px;
+    height: 400px;
     border-radius: 30px;
+    justify-content: space-around;
 }
 
-.biggest {
-    width: 70%;
-    height: auto;
+.biggest-image img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 500px;
 }
-
