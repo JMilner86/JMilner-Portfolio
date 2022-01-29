@@ -28,7 +28,6 @@ header {
     background-image: url(../images/abstract.png);
     height: 200px;
     background-position: left;
-    width: 100%;
     border: var(--reference-border);
 }
 
@@ -106,7 +105,7 @@ header nav ul li a{
 .projects {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    justify-content: center;
     border: var(--reference-border);
 }
 
@@ -114,9 +113,16 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     font-weight: bolder;
-    border: var(--reference-border);
-    position: relative;
-    left: 150px;
+    margin-top: 40px;
+    border-bottom: var(--main-text-color) solid 3px;
+    font-size: 40px;
+}
+
+.work-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px;
 }
 
 .work-images a {
@@ -125,21 +131,13 @@ header nav ul li a{
     color: var(--main-text-color);
 }
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    border: var(--reference-border);
-    justify-content: space-around;
-    justify-content: space-between;
-}
-
 .work-images img {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
     border-radius: 30px;
-    justify-content: space-around;
+    justify-content: center;
     border: var(--reference-border);
 }
 
@@ -149,6 +147,7 @@ header nav ul li a{
     width: 60%;
     height: 500px;
     border: var(--reference-border);
+    align-items: center;
 }
 
 .contact-info {
