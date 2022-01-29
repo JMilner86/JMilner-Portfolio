@@ -27,11 +27,14 @@ header h1 a{
 header nav ul li {
     display: flex;
     display: inline-flex;
+    text-align: right;
 }
 
 header nav ul li a{
+    display: flex;
     text-decoration: none;
     color: #625750;
+    text-align: right;
 }
 
 header nav ul{
